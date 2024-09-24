@@ -1,8 +1,8 @@
  // ¬ведите 3 числа и выведите на экран значение 
  // суммы, умножение, и среднее арифмитическое этих чисел.
-/*
 
-#include <iostream>
+/*
+* #include <iostream>
 
 using namespace std;
 
@@ -29,6 +29,6 @@ using namespace std;
 
 
 }
-
-
 */
+
+

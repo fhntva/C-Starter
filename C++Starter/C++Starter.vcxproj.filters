@@ -21,5 +21,8 @@
     <ClCompile Include="L1.cpp">
       <Filter>Файлы ресурсов\L1</Filter>
     </ClCompile>
+    <ClCompile Include="L2.cpp">
+      <Filter>Файлы ресурсов\L1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
