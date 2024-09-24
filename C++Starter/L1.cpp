@@ -17,7 +17,6 @@ using namespace std;
 		cout << "Последовательно введите 3 значения " << endl;
 		cin >> a >> b >> c;
 
-
 		sum = a + b + c;
 		cout << "Среднее арифмитическое 3 чисел равно: " <<sum << endl;
 		mult = a * b * c;
