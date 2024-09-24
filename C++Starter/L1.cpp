@@ -3,6 +3,6 @@
 using namespace std;
 	int main()
 {
-
-		cout << "i see you" << endl;
+		setlocale(LC_ALL, "russian");
+		cout << "Привет" << endl;
 }
