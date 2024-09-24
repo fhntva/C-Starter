@@ -15,8 +15,9 @@ using namespace std;
 
 		setlocale(LC_ALL, "russian");
 		cout << "Последовательно введите 3 значения " << endl;
-		
 		cin >> a >> b >> c;
+
+
 		sum = a + b + c;
 		cout << "Среднее арифмитическое 3 чисел равно: " <<sum << endl;
 		mult = a * b * c;
