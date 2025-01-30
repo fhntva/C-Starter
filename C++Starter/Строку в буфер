@@ -1,0 +1,21 @@
+#include <windows.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string>
+using namespace std;
+
+
+
+int main() {
+
+	std::string name;
+	name = "Sadness";
+	OpenClipboard(NULL);
+	EmptyClipboard();
+	HGLOBAL hMem = GlobalAlloc(GMEM_MOVEABLE, name.size() + 1);
+	memcpy(GlobalLock(hMem), name.c_str(), name.size() + 1);
+	SetClipboardData(CF_TEXT, hMem);
+	CloseClipboard();
+   
+}
